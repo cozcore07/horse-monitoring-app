@@ -36,19 +36,33 @@ A smart surveillance system designed to monitor horses using AI-based movement d
 project/
 
 ├── ai/
+
 │ └── abnormal_movement_detector.py # AI logic for motion detection
+
 ├── camera/
+
 │ ├── camera_stream.py # Real-time camera feed
+
 │ └── video_recorder.py # Video saving logic
+
 ├── server/
+
 │ ├── alert_api.py # Alert dispatch via Twilio
+
 │ ├── stream_server.py # Stream server using Flask
+
 │ └── requirements.txt # Python dependencies
+
 ├── mobile_app/
+
 │ ├── main.dart # Flutter entry point
+
 │ └── lib/
+
 │ ├── screens/ # Home, Alerts, Live Stream screens
+
 │ └── widgets/alert_card.dart # UI widget for alerts
+
 └── README.md
 
 yaml
