@@ -65,25 +65,6 @@ Edit
 - Twilio account (for alerts)
 - A webcam or IP camera
 
-### 🖥️ Backend Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourname/horse-monitoring-ai.git
-   cd horse-monitoring-ai/server
-Install dependencies:
-
-
-pip install -r requirements.txt
-Set up environment variables for Twilio (or use a .env file):
-
-
-export TWILIO_SID=your_sid
-export TWILIO_TOKEN=your_token
-export TWILIO_FROM=your_twilio_number
-Run servers:
-python stream_server.py   # for live camera feed
-python alert_api.py       # for alert notifications
 📱 Mobile App Setup
 Navigate to the Flutter app directory:
 
