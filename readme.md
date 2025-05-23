@@ -34,6 +34,7 @@ A smart surveillance system designed to monitor horses using AI-based movement d
 ## 📁 Project Structure
 
 project/
+
 ├── ai/
 │ └── abnormal_movement_detector.py # AI logic for motion detection
 ├── camera/
